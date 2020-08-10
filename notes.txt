@@ -1,0 +1,39 @@
+1. JSON
+    json.load(fileName) # CONVERTS JSON FILE TO PYTHON DICT
+    json.loads(strName) # CONVERTS PYTHON STRING TO PYTHON DICT
+
+    json.dumps(dictionary) # CONVERTS PYTHON DICT TO JSON WHICH IS A PYTHON STRING
+    json.dump(dictionary , file) # CONVERTS DICT TO JSON AND WRITES IN THE file
+
+2. PYAUTOGUI
+    pyautogui.position() #RETURNS (X,Y)
+
+    pyautogui.click()  # LEFT CLICK THE MOUSE
+    pyautogui.click(x = given_x , y = given_y)  # LEFT CLICK THE MOUSE AFTER REACHING GIVEN CORD
+    pyautogui.click(button='right')  # RIGHT CLICK THE MOUSE
+    pyautogui.click(clicks=2)  # DOUBLE CLICK LEFT MOUSE BUTTON
+    pyautogui.click(clicks=2, interval=0.25) # DOUBLE CLICK WITH A PAUSE
+    pyautogui.click(button='right', clicks=3, interval=0.25)  # TRIPLE CLICK THE RIGHT MOUSE WITH A PAUSE
+    pyautogui.doubleClick()
+    tripleClick()
+    rightClick()
+
+    x, y = pyautogui.locateCenterOnScreen(img)
+
+
+3. KEYBOARD
+    keyboard.write(text) # TYPES THE GIVEN TEXT 
+
+
+autoRun  Example :
+{
+    "COMMAND_INFO":{
+        "TOTAL_COMMANDS":3,
+        "COMMAND_NAMES":["test1", "test3","test2"],
+        "COMMAND_NAMES_WITH_INFO":{
+            "test1": [0 , "WRITE" , "HELLO WROLD 1"] , 
+            "test2": [2 , "WRITE" , "HELLO WROLD 1"] , 
+            "test3": [1 , "WRITE" , "HELLO WORLD"]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "COMMAND_INFO": {
+    "TOTAL_COMMANDS": 2,
+    "COMMAND_NAMES": ["click1", "write1"],
+    "COMMAND_NAMES_WITH_INFO": {
+      "click1": [0, "CLICK", [828, 590]],
+      "write1": [1, "WRITE", "myText"]
+    }
+  }
+}
